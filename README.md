@@ -10,10 +10,9 @@ Selecionando os meses de Dezembro, Janeiro e Fevereiro e as coordenadas do Hemis
 </p>
   
 ``` bash
-  cdo select,month=12,1,2,lonlatbox=0,360,-90,0 nome_arquivo_entrada.nc nome_arquivo_saida.nc
-  
+    cdo select,month=12,1,2,lonlatbox=0,360,-90,0 nome_arquivo_entrada.nc nome_arquivo_saida.nc
 ```
-  
+
   
   <h2> Referências </h2>
    
