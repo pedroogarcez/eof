@@ -12,9 +12,18 @@ Selecionando os meses de Dezembro, Janeiro e Fevereiro e as coordenadas do Hemis
 ``` bash
     cdo select,month=12,1,2,lonlatbox=0,360,-90,0 nome_arquivo_entrada.nc nome_arquivo_saida.nc
 ```
+<p> Outro comando que poderia ser utilizado separadamente: </p>
+<p> Selecionando o nível de 200 hPa 
+</p>
+
+``` bash
+    cdo sellevel,200 nome_arquivo_entrada.nc nome_arquivo_saida.nc
+```
+<p> 
+
 <p align="justify"> 
  Vale ressaltar que as características do arquivo em relação aos períodos e regiões de análise vão variar de acordo com cada estudo. Neste caso, como o calendário do arquivo arquivo está no formato <i> 360_day </i>, as mudanças acima são necessárias. 
  Agora, vamos partir para as etapas que iremos realizar no código que está em anexo neste repositório. </p>
-  <h2> 3. Referências </h2>
+  <h2> 2. Referências </h2>
  <p> - Climate Data Operators </p>
  <p> - <a href="https://www.w3schools.com/](https://ajdawson.github.io/eofs/latest/"> eofs analysis in Python</a> </p>
