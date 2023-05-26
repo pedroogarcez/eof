@@ -16,4 +16,5 @@ Selecionando os meses de Dezembro, Janeiro e Fevereiro e as coordenadas do Hemis
  Vale ressaltar que as características do arquivo em relação aos períodos e regiões de análise vão variar de acordo com cada estudo. Neste caso, como o calendário do arquivo arquivo está no formato <i> 360_day </i>, as mudanças acima são necessárias. 
  Agora, vamos partir para as etapas que iremos realizar no código que está em anexo neste repositório. </p>
   <h2> 3. Referências </h2>
-   <a href="url">Texto a ser exibido</a>
+ <p> - Climate Data Operators </p>
+ <p> - <a href="https://www.w3schools.com/](https://ajdawson.github.io/eofs/latest/"> eofs analysis in Python</a> </p>
